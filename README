@@ -1,0 +1,9 @@
+vcsaclockd - VCSA clock daemon
+draws a clock in your VT consoles
+clock is disabled upon login and reenabled upon logout
+
+TODO: make it automatically fork off and open a logfile
+TODO: make less lseek's in the vcsa file, looks like it adds some overhead
+TODO: do something if there's no utmp
+TODO: some configuration maybe?
+TODO: some options maybe?
